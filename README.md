@@ -2,9 +2,14 @@
 
 > All class functions for mari-wabot
 
+### Install
+```Javascript
+npm install @Im-Dims/dims-js@github:Im-Dims/dims-js
+```
+
 ### Get Started
 ```Javascript
-const loli = new(require('@fainshe/dims'))
+const loli = new (require("@Im-Dims/dims-js"))()
 console.log(loli)
 ```
 
