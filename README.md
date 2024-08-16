@@ -2,9 +2,9 @@
 
 > All class functions for mari-wabot
 
-### Install
-```Javascript
-npm install @Im-Dims/dims-js@github:Im-Dims/dims-js
+## Installation
+```sh
+$ npm install @Im-Dims/dims-js@github:Im-Dims/dims-js
 ```
 
 ### Get Started
