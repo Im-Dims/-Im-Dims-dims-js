@@ -8,6 +8,7 @@ const Exif = new (require('./system/exif'))
 const MongoDB = require('./system/mongoDB')
 const CloudDBAdapter = require('./system/cloudDBAdabter')
 const lowdb = require('./system/lowdb')
+const Api = new (require('./system/Api'))
 
 module.exports = class Component {
    makeWASocket = makeWASocket
@@ -22,4 +23,5 @@ module.exports = class Component {
    MongoDB = MongoDB
    CloudDBAdapter = CloudDBAdapter
    lowdb = lowdb
+   Api = Api
 }
